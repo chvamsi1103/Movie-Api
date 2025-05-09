@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled output
+dist/
+coverage/
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Jest coverage reports
+coverage/
+lcov-report/
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional SQLite DB files (if generated/overwritten)
+db/*.db-wal
+db/*.db-shm
